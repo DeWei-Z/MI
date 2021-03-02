@@ -1,0 +1,172 @@
+*{margin:0;padding:0}
+li{list-style:none}
+img{vertical-align:top;border:none}
+body{
+    font-size: 12px;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.container{
+    width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-top{
+    height: 40px;
+    background-color: #323232;
+}
+.page-top .top-left{
+    color: #a2a2a2;
+    line-height: 40px;
+    float: left;
+}
+
+.page-top .top-left span{
+    color: #3f3f3f;
+    margin: 0.3em;
+}
+
+.page-top .top-left a{
+    display: inline-block;
+}
+.page-top .top-left a:hover{
+    color:#fff ;
+}
+.page-top .top-left .download{
+    position: relative;
+}
+
+.page-top .top-left .down-box{
+    width: 126px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding-top: 20px;
+    box-shadow: rgb(170, 170, 170) 0px 1px 5px;
+    left: 50%;
+    margin-left: -63px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    display: none;
+}
+.page-top .top-left .down-box img{
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
+}
+
+.page-top .top-left .down-box b{
+    width: 0px;
+    height: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent ;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: -19.2px;
+}
+
+.page-top .top-left a.download:hover .down-box{
+   display: block;
+}
+
+
+
+
+
+
+.page-top .top-right{
+    color: #a2a2a2;
+    line-height: 40px;
+    float: right;
+    
+    height: 40px;
+}
+
+.page-top .top-right span{
+    color: #3f3f3f;
+    margin: 0.3em;
+}
+
+.page-top .top-right a{
+    display: inline-block;
+}
+.page-top .top-right a:hover{
+    color:#fff ;
+}
+
+.page-top .top-right .login{
+    float: right;
+}
+.page-top .top-right .car-box{
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #424242;
+    color: #fff;
+   text-align: center;
+    line-height: 40px;
+    position: relative;
+    
+}
+.page-top .top-right .car-box a{
+    width: 100%;
+    color: #b0b0b0;
+    position: relative;
+    z-index: 34;
+}
+
+.page-top .top-right .car-box:hover a{
+    color: #ff6700;
+    background-color: #fff;
+}
+
+.page-top .top-right .car-box i{
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align:-4px;
+    margin-right: 4px;
+    
+   
+}
+
+.page-top .top-right .car-box:hover span{
+    color: #ff6700;
+}
+
+.page-top .top-right .car-box span{
+   margin-left: -2px;
+   line-height: 40px;
+   text-align: center;
+    color: #b0b0b0;
+}
+
+.page-top .top-right .car-box .pop{
+    width: 316px;
+   
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    font-size: 12px;
+    color: #424242;
+    padding: 30px 0;
+    display: none;
+    z-index: 32;
+}
+
+.page-top .top-right .car-box:hover .pop{
+    display: block;
+    
+}
