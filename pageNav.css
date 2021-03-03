@@ -68,10 +68,60 @@ body,ul,li{
 
 .page-nav .container .search{
     float: right;
-    width: 290px;
+    width: 296px;
     height: 50px;
     margin-top: 25px;
     background-color: blueviolet;
+}
+
+.search .form-search{
+    position: relative;
+    display: block;
+    width: 296px;
+    height: 50px;
+}
+
+.search .form-search:hover .form-text{
+    border-color:#757575;
+}
+.search .form-search:hover .form-btn{
+    border-color: #757575;
+}
+
+
+.search .form-search .form-text{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    display: block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    outline: 0;
+    transition: border-color .2s;
+}
+
+.search .form-search .form-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 52px;
+    height: 50px;
+    line-height: 24px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    cursor: pointer;
+    transition: border-color .2s;
+}
+
+.search .form-search .form-btn:hover{
+    background-color: #ff6700;
+    
+    color: #fff;
 }
 
 .page-nav .container .logo a{
