@@ -1,0 +1,144 @@
+.footer{
+    background-color: white;
+    height: 272px;
+}
+
+.service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.list-service{
+   
+    list-style-type: none;
+}
+
+.list-service li{
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.list-service li:first-child {
+    border-left: 0;
+}
+
+.list-service li a{
+    color: #616161;
+    transition: color .2s;
+}
+
+.list-service li a:hover{
+    color: #ff6700;
+}
+
+.list-service .iconfont{
+    margin-right: 1px;
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: -4px;
+}
+
+
+.link{
+    padding: 40px 0;
+}
+.link .col-links{
+    float: left;
+    width: 160px;
+    height: 112px;
+    
+}
+
+.link .col-links dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+
+.link .col-links dd{
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+
+.link .col-links a{
+    color: #757575;
+}
+
+.link .link-contact{
+    float: right;
+    width: 251px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.link .link-contact .phone{
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+
+.link .link-contact p{
+    margin: 0 0 16px;
+    font-size: 12px;
+}
+
+.link .link-contact .btn-line{
+    display: inline-block;
+    border: 1px solid #b0b0b0;
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.link .link-contact .btn-line:hover{
+    color: #fff;
+    background-color: #f25807;
+    border-color: #f25807
+}
+
+.link .link-contact .follow{
+    font-size: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.link .link-contact .wb{
+    background: url("./images/wb.png") 50% 0 no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    color: #757575;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+
+.link .link-contact .wx{
+    background: url("./images/wx.png") 50% 0 no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    color: #757575;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-top: -3px;
+    
+}
